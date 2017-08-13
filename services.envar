@@ -9,5 +9,5 @@ export API_URL="https://api.github.com"
 export TIMEOUT="5000"
 
 #Auth
-export USER="Darth"
+export AUTH_USER="Darth"
 export PASSWORD="Vader"

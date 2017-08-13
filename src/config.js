@@ -6,7 +6,7 @@ const {
   PAGE_SIZE,
   API_URL,
   PORT,
-  USER,
+  AUTH_USER,
   TIMEOUT,
   PASSWORD
 } = process.env;
@@ -22,9 +22,9 @@ module.exports = {
     order: 'desc'
   },
   server: {
-    port: PORT || 3100,
+    port: PORT || 1991,
     auth: {
-      user: USER,
+      user: AUTH_USER,
       pass: PASSWORD
     }
   }

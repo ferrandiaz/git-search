@@ -12,7 +12,7 @@ services:
         PAGE_SIZE: $PAGE_SIZE
         API_URL: $API_URL
         TIMEOUT: $TIMEOUT
-        USER: $USER
+        AUTH_USER: $AUTH_USER
         PASSWORD: $PASSWORD
         PORT: $PORT
     volumes:
