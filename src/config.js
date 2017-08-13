@@ -22,7 +22,7 @@ module.exports = {
     order: 'desc'
   },
   server: {
-    port: PORT || 1991,
+    port: PORT || 3100,
     auth: {
       user: USER,
       pass: PASSWORD
