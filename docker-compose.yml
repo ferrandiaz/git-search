@@ -1,0 +1,26 @@
+version: '2'
+
+services:
+  git-search:
+    build:
+      context: .
+      args:
+        BUILD_ENV: development
+    environment:
+        DEFAUL_LOCATION: $DEFAUL_LOCATION
+        MIN_USERS: $MIN_USERS
+        PAGE_SIZE: $PAGE_SIZE
+        API_URL: $API_URL
+        TIMEOUT: $TIMEOUT
+        USER: $USER
+        PASSWORD: $PASSWORD
+        PORT: $PORT
+    volumes:
+      - ./src:/app/src
+    ports:
+      - 3100:3100
+
+networks:
+  default:
+    external:
+      name: development

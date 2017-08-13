@@ -1,0 +1,13 @@
+# Server
+export PORT="3100"
+
+# External API
+export DEFAUL_LOCATION="Barcelona"
+export MIN_USERS="50"
+export PAGE_SIZE="100"
+export API_URL="https://api.github.com"
+export TIMEOUT="5000"
+
+#Auth
+export USER="Darth"
+export PASSWORD="Vader"
